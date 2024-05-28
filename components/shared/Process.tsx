@@ -8,13 +8,13 @@ const Process = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        Thi is My <span className=" text-purple">Process</span>{" "}
+        Thi is my <span className=" text-purple">process</span>{" "}
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
         <Card
-          title="Planning & Strategy"
+          title="Initial Consultation"
           icon={<AceternityIcon order="Phase 1" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam numquam tenetur natus quidem, quibusdam, error inventore nisi dignissimos fugit odit distinctio unde amet provident fugiat autem! Numquam nulla maiores nostrum"
+          description="During this phase, we meet with the client to understand their vision, goals, and requirements for the project. We discuss key objectives, target audience, and any specific features or functionalities desired. This helps us to align our approach with the client's expectations and set a clear direction for the project."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Process = () => {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="Project Planning and Proposal"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam numquam tenetur natus quidem, quibusdam, error inventore nisi dignissimos fugit odit distinctio unde amet provident fugiat autem! Numquam nulla maiores nostrum"
+          description="After gathering all necessary information, we create a detailed project plan and proposal. This document outlines the project scope, timeline, milestones, and cost estimates. We review the proposal with the client to ensure it meets their needs and make any necessary adjustments before finalizing the agreement."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -38,9 +38,9 @@ const Process = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="Development and Review"
           icon={<AceternityIcon order="Phase 3" />}
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam numquam tenetur natus quidem, quibusdam, error inventore nisi dignissimos fugit odit distinctio unde amet provident fugiat autem! Numquam nulla maiores nostrum"
+          description="With the project plan in place, we begin the development phase. We maintain regular communication with the client, providing progress updates and seeking feedback at key stages. This iterative process ensures that the project stays on track and any issues are addressed promptly. Upon completion, we conduct a thorough review with the client to ensure satisfaction before the final handover"
         >
           <CanvasRevealEffect
             animationSpeed={3}

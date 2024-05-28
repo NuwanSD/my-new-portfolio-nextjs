@@ -1,14 +1,15 @@
 export const navItems = [
+  { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I am Crafting Robust and Scalable Web Applications",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Flexible with communications with You",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "I am undergrate at Faculty of Computing and Technology, Sri Lanka",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I am Following a Bachelor of Information & Communication Degree.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently I am focusing on Next JS Full Stack Development",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "I am Ready to Start a Project with You?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -73,8 +74,8 @@ export const projects = [
   {
     id: 1,
     title: "Next JS - Modern Chat Application",
-    des: "Build a real-time chat application with modern UI using Next.js, allowing seamless and instant communication.",
-    img: "/p1.svg",
+    des: "Modern chat application with Nextjs and clerk user management platfrom",
+    img: "/chat-app.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://thread-app-iota.vercel.app/",
   },
@@ -82,7 +83,7 @@ export const projects = [
     id: 2,
     title: "Next JS - Pricewise Web application",
     des: "Create a web application with Next.js, using web scrapping technology",
-    img: "/p2.svg",
+    img: "/pricewise.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://pricewise-project.vercel.app/",
   },
@@ -90,7 +91,7 @@ export const projects = [
     id: 3,
     title: "React JS - Sample Nike Web Site",
     des: "Develop a frontend sample e-commerce website for Nike using React JS, featuring dynamic product displays and smooth user interactions.",
-    img: "/p3.svg",
+    img: "/nike-react.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://nike-website-vite.netlify.app/",
   },
@@ -98,104 +99,116 @@ export const projects = [
     id: 4,
     title: "WordPoster AI Application - Next JS",
     des: "Create an AI-powered application frontend using Next JS",
-    img: "/p4.svg",
+    img: "/wordposter-ai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
+    name: "",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
+    name: "",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
+    name: "",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
+    name: "",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
+    name: "",
+    title: "",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "NextJS",
+    img: "/next-js.png",
+    nameImg: "",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "React",
+    img: "/react.png",
+    nameImg: "",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Tailwind CSS",
+    img: "/tailwindcss.png",
+    nameImg: "",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "HTML",
+    img: "/html.png",
+    nameImg: "",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "CSS",
+    img: "/css.png",
+    nameImg: "",
+  },
+  {
+    id: 6,
+    name: "GIT",
+    img: "/git.png",
+    nameImg: "",
+  },
+  {
+    id: 7,
+    name: "Material UI",
+    img: "/mu5.png",
+    nameImg: "",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer Intern",
+    desc: "Contributed to the development of a dynamic web platform using React.js, improving user engagement and interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Next JS Developer",
+    desc: "Built high-performance web applications using Next.js, ensuring fast load times and seamless navigation.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Developer",
+    desc: "Managed the entire development lifecycle of custom web solutions for clients, from initial design to deployment.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Shopify Developer",
+    desc: "Created and optimized e-commerce sites on the Shopify platform, enhancing user experience and conversion rates.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +218,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/NuwanSD",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Sagara_D_Nuwan",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/sagara-nuwan-70160417b/",
   },
 ];

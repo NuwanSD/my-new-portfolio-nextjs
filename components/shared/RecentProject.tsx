@@ -5,6 +5,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 
 import { PinContainer } from "../ui/3D-Pin";
+import MagicButton from "../ui/MagicButton";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -13,10 +15,10 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-8 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[38rem] h-[28rem] lg:min-h-[30rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={item.id}
           >
             <PinContainer
@@ -68,7 +70,9 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    <Link href={item.link} target="_blank">
+                      Chek with live site
+                    </Link>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
@@ -76,6 +80,15 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
+      </div>
+      <div className=" flex flex-col items-center">
+        <Link href="/projects">
+          <MagicButton
+            title="See more my works"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </Link>
       </div>
     </div>
   );
