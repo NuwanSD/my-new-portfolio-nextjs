@@ -41,7 +41,7 @@ const projects = [
   {
     id: 5,
     img: "/my-old-portfolio.png",
-    title: "My Old Portfolio Web Site",
+    title: "My Old Portfolio - React JS + Sanity",
     des: "My old portfolio web site with react js sanity and framer motions",
     code: "https://github.com/NuwanSD/fortfolio-project.git",
     site: "https://sagaradnuwan.netlify.app/",
@@ -54,12 +54,33 @@ const projects = [
     code: "",
     site: "",
   },
+  {
+    id: 7,
+    img: "/itsa-uok.png",
+    title: "ITSA Website - NextJS Full Stack",
+    des: "This ITSA website using tailwind CSS and Next JS",
+    code: "",
+    site: "",
+  },
+  {
+    id: 7,
+    img: "/eco-memories.png",
+    title: "Eco-Memories - NextJS Frontend",
+    des: "Project Eco-Memories. This my university project. Used NextJS to develop the frontend",
+    code: "",
+    site: "https://eco-memories-next-js.vercel.app/",
+  },
 ];
 
+const reversedProjects = [...projects].reverse();
+
 const CardProvider = () => {
-  return projects.map((project) => (
+  return reversedProjects.map((project) => (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody
+        key={project.id}
+        className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  "
+      >
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"

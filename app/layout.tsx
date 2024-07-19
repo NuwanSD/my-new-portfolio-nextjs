@@ -5,6 +5,7 @@ import { ThemeProvider } from "./provider";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import Footer from "@/components/shared/Footer";
+import { NavbarDemo } from "@/components/shared/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <FloatingNav navItems={navItems} />
+          {/* <NavbarDemo /> */}
+
           {children}
           <Footer />
         </ThemeProvider>

@@ -2,7 +2,6 @@ export const navItems = [
   { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -76,65 +75,79 @@ export const projects = [
     title: "Next JS - Modern Chat Application",
     des: "Modern chat application with Nextjs and clerk user management platfrom",
     img: "/chat-app.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
     link: "https://thread-app-iota.vercel.app/",
+    code: "https://github.com/NuwanSD/Thread-App.git",
   },
   {
     id: 2,
     title: "Next JS - Pricewise Web application",
     des: "Create a web application with Next.js, using web scrapping technology",
     img: "/pricewise.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg"],
     link: "https://pricewise-project.vercel.app/",
+    code: "https://github.com/NuwanSD/pricewise-project.git",
   },
   {
     id: 3,
     title: "React JS - Sample Nike Web Site",
     des: "Develop a frontend sample e-commerce website for Nike using React JS, featuring dynamic product displays and smooth user interactions.",
     img: "/nike-react.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/css.png"],
     link: "https://nike-website-vite.netlify.app/",
+    code: "https://github.com/NuwanSD/Nike-Website.git",
   },
   {
     id: 4,
     title: "WordPoster AI Application - Next JS",
     des: "Create an AI-powered application frontend using Next JS",
     img: "/wordposter-ai.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tail.svg"],
     link: "",
+    code: "",
   },
 ];
 
-export const testimonials = [
+export const projectsCarousel = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
-    name: "",
-    title: "",
+    id: 1,
+    img: "/chat-app.png",
+    title: "Chat Application - Next JS",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
-    name: "",
-    title: "",
+    id: 2,
+    img: "/pricewise.png",
+    title: "NextJS Application - Web Scrapping",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
-    name: "",
-    title: "",
+    id: 3,
+    img: "/nike-react.png",
+    title: "Sample Nike Landing Page",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
-    name: "",
-    title: "",
+    id: 4,
+    img: "/restaurant-react.png",
+    title: "Restaurant Website - ReactJS",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nisi. Ipsum, nobis. Animi in corrupti perferendis veritatis fugiat adipisci itaque quasi inventore assumenda illum ipsam quas, excepturi tenetur, aliquam rerum?",
-    name: "",
-    title: "",
+    id: 5,
+    img: "/my-old-portfolio.png",
+    title: "My Old Portfolio - React JS + Sanity",
+  },
+  {
+    id: 6,
+    img: "/wordposter-ai.png",
+    title: "Frontend Development - Wordposter AI Application",
+  },
+  {
+    id: 7,
+    img: "/itsa-uok.png",
+    title: "ITSA Website - NextJS Full Stack",
+  },
+  {
+    id: 8,
+    img: "/eco-memories.png",
+    title: "eco-memories",
   },
 ];
 
@@ -142,51 +155,44 @@ export const companies = [
   {
     id: 1,
     name: "NextJS",
-    img: "/next-js.png",
-    nameImg: "",
+    img: "/next.svg",
   },
   {
     id: 2,
     name: "React",
-    img: "/react.png",
-    nameImg: "",
+    img: "/re.svg",
   },
   {
     id: 3,
     name: "Tailwind CSS",
-    img: "/tailwindcss.png",
-    nameImg: "",
+    img: "/tail.svg",
   },
   {
     id: 4,
     name: "HTML",
     img: "/html.png",
-    nameImg: "",
   },
   {
     id: 5,
     name: "CSS",
     img: "/css.png",
-    nameImg: "",
   },
   {
     id: 6,
     name: "GIT",
     img: "/git.png",
-    nameImg: "",
   },
   {
     id: 7,
     name: "Material UI",
     img: "/mu5.png",
-    nameImg: "",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Developer Intern",
+    title: "Frontend Developer",
     desc: "Contributed to the development of a dynamic web platform using React.js, improving user engagement and interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
