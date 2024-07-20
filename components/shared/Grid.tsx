@@ -14,7 +14,7 @@ import Image from "next/image";
 
 const Grid = () => {
   return (
-    <div className="px-12 py-20">
+    <div className="px-12 ">
       <h1 className="heading">
         Comprehensive{" "}
         <span className="text-purple"> Web Development Services</span>
