@@ -9,7 +9,7 @@ const page = () => {
     <div className=" bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 pt-20 pb-10 ">
       <div className="max-w-7xl w-full">
         <h1 className="heading">
-          My <span className="text-purple">projects</span> experience
+          My <span className="text-purple">Projects</span> Experience
         </h1>
         <div className="flex flex-col mt-10 pb-20">
           <TextGenerateEffect
