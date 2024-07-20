@@ -8,7 +8,7 @@ const Process = () => {
   return (
     <section className="w-full py-20 px-12">
       <h1 className="heading">
-        This is my <span className=" text-purple">approach</span>{" "}
+        How is My <span className=" text-purple">Approach</span>{" "}
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
         <Card

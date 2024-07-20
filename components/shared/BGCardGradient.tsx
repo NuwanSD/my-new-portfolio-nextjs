@@ -13,23 +13,23 @@ export function BackgroundGradientDemo() {
   return (
     <div className="py-20 px-12">
       <h1 className="heading py-12">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        A Small Selection of{" "}
+        <span className="text-purple">Recent Projects</span>
       </h1>
-      <div className="flex p-10">
+      <div className="flex max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-20 justify-center">
           {projects.map((project) => (
             <BackgroundGradient
               key={project.id}
               className="rounded-[22px] h-full p-4 sm:p-10 bg-white dark:bg-zinc-900"
             >
-              <div className="flex justify-center items-center">
+              <div className="flex">
                 <Image
                   src={project.img}
                   alt={project.title}
                   height="400"
                   width="400"
-                  className="object-contain rounded-xl"
+                  className="object-cover rounded-xl"
                 />
               </div>
               <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
@@ -39,7 +39,7 @@ export function BackgroundGradientDemo() {
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
                 {project.des}
               </p>
-              <div className="flex justify-between mt-4 items-center">
+              <div className="flex justify-between gap-2 mt-4 items-center">
                 <button className="rounded-full text-white flex items-center space-x-1  mt-4 text-xs font-bold ">
                   <Link href={project.code} target="_blank">
                     Code to refer
@@ -51,7 +51,7 @@ export function BackgroundGradientDemo() {
                   </Link>
                 </button>
               </div>
-              <div className="flex gap-5 mt-5">
+              <div className="flex flex-wrap gap-5 mt-5">
                 {project.iconLists.map((img) => (
                   <Image src={img} alt="ss" width={25} height={25} />
                 ))}

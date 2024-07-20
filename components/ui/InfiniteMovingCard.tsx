@@ -72,7 +72,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  w-screen overflow-hidden  ",
         className
       )}
     >
@@ -86,12 +86,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className=" relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5  py-6 "
-            style={{
-              background: "rgb(4,7,29)",
-              backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-            }}
+            className=" relative rounded-2xl  flex-shrink-0 border-slate-800 p-5"
             key={idx}
           >
             <blockquote>
@@ -105,10 +100,13 @@ export const InfiniteMovingCards = ({
                   <div className="">
                     <Image
                       src={item.img}
-                      alt=""
+                      alt="images"
                       width={400}
                       height={400}
-                      className=" rounded-xl"
+                      className={cn(
+                        "rounded-xl hover:rotate-0",
+                        idx % 2 === 0 ? "rotate-[-2deg]" : "rotate-2"
+                      )}
                     />
                   </div>
                 </div>

@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "Home", link: "/" },
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "/about" },
+  { name: "Projects", link: "/projects" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export const gridItems = [
@@ -99,11 +99,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "WordPoster AI Application - Next JS",
-    des: "Create an AI-powered application frontend using Next JS",
-    img: "/wordposter-ai.png",
+    title: "Eco-Memories - Next JS",
+    des: "Project Eco-Memories. This my university project. Used NextJS to develop the frontend",
+    img: "/eco-memories.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tail.svg"],
-    link: "",
+    link: "https://eco-memories-next-js.vercel.app/",
     code: "",
   },
 ];

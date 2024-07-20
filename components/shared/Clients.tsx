@@ -6,13 +6,13 @@ const Clients = () => {
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading">
-        My <span className="text-purple">projects</span>
+        Some of Top <span className="text-purple">Achievements</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10 mt-10 ">
         <InfiniteMovingCards
           items={projectsCarousel}
-          direction="right"
+          direction="left"
           speed="slow"
         />
 

@@ -16,8 +16,8 @@ const Grid = () => {
   return (
     <div className="px-12 py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Comprehensive{" "}
+        <span className="text-purple"> Web Development Services</span>
       </h1>
       <BentoGrid className="w-full py-20">
         {items.map((item, i) => (
